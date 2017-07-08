@@ -26,10 +26,10 @@ Console.WriteLine($"2nd string is {b.Length} characters long.");
  string d = "HEY READER".ToLower(); //hey reader
             
    
- string t1 = input.TrimStart(); // "Ramsha "
- string t2 = input.TrimEnd(); // " Ramsha"
- string t3 = input.Trim(); // "Ramsha"   Trim removes white spaces from string
- string s = input.Trim().Substring(2,4); // "msha"
+ string t1 = a.TrimStart(); // "Ramsha "
+ string t2 = a.TrimEnd(); // " Ramsha"
+ string t3 = a.Trim(); // "Ramsha"   Trim removes white spaces from string
+ string s = a.Trim().Substring(2,4); // "msha"
             
             
 string x = "Hello Reader!";
