@@ -86,7 +86,7 @@ namespace c(sharp)
         Console.WriteLine($"colorsArray[0] {colorsArray[0]}");
 
         colorsArray.RemoveAt(0); 
-        Console.WriteLine($"remove at ) so next elemnt is: {colorsArray[0]}");
+        Console.WriteLine($"remove at so next elemnt is: {colorsArray[0]}");
 
         int numColors = colorsArray.Count; 
         Console.WriteLine($"Color present in list are now: {numColors}");
